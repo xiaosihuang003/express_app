@@ -2,7 +2,7 @@ services:
   express-app:
     image: xiaosihuangsi/express-app
     ports:
-      - 3000:3000
+      - 3000:8080
   watchtower:
     image: nickfedor/watchtower
     environment:
